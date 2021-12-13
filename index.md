@@ -1,2 +1,2 @@
 
-This is a site for disseminating the porject results
+This is a site for disseminating the project results
