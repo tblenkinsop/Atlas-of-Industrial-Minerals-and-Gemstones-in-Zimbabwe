@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to the Atlas of Industrial Minerals and Gemstones in Zimbabwe
 
 You can use the [editor on GitHub](https://github.com/tblenkinsop/Atlas-of-Industrial-Minerals-and-Gemstones-in-Zimbabwe/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
