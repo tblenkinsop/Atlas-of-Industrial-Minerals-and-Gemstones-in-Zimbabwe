@@ -1,0 +1,533 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 <WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" xmlns:qgs="http://www.qgis.org/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?SERVICE=WMS&REQUEST=GetSchemaExtension" version="1.3.0">\
+<Service>\
+<Name>WMS</Name>\
+<Title>untitled</Title>\
+<KeywordList>\
+<Keyword vocabulary="ISO">infoMapAccessService</Keyword>\
+</KeywordList>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database" xlink:type="simple"/>\
+<Fees>None</Fees>\
+<AccessConstraints>None</AccessConstraints>\
+<MaxWidth>16384</MaxWidth>\
+<MaxHeight>16384</MaxHeight>\
+</Service>\
+<Capability>\
+<Request>\
+<GetCapabilities>\
+<Format>text/xml</Format>\
+<DCPType>\
+<HTTP>\
+<Get>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?" xlink:type="simple"/>\
+</Get>\
+</HTTP>\
+</DCPType>\
+</GetCapabilities>\
+<GetMap>\
+<Format>image/jpeg</Format>\
+<Format>image/png</Format>\
+<Format>image/png; mode=16bit</Format>\
+<Format>image/png; mode=8bit</Format>\
+<Format>image/png; mode=1bit</Format>\
+<Format>application/dxf</Format>\
+<DCPType>\
+<HTTP>\
+<Get>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?" xlink:type="simple"/>\
+</Get>\
+</HTTP>\
+</DCPType>\
+</GetMap>\
+<GetFeatureInfo>\
+<Format>text/plain</Format>\
+<Format>text/html</Format>\
+<Format>text/xml</Format>\
+<Format>application/vnd.ogc.gml</Format>\
+<Format>application/vnd.ogc.gml/3.1.1</Format>\
+<Format>application/json</Format>\
+<Format>application/geo+json</Format>\
+<DCPType>\
+<HTTP>\
+<Get>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?" xlink:type="simple"/>\
+</Get>\
+</HTTP>\
+</DCPType>\
+</GetFeatureInfo>\
+<sld:GetLegendGraphic>\
+<Format>image/jpeg</Format>\
+<Format>image/png</Format>\
+<Format>application/json</Format>\
+<DCPType>\
+<HTTP>\
+<Get>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?" xlink:type="simple"/>\
+</Get>\
+</HTTP>\
+</DCPType>\
+</sld:GetLegendGraphic>\
+<sld:DescribeLayer>\
+<Format>text/xml</Format>\
+<DCPType>\
+<HTTP>\
+<Get>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?" xlink:type="simple"/>\
+</Get>\
+</HTTP>\
+</DCPType>\
+</sld:DescribeLayer>\
+<qgs:GetStyles>\
+<Format>text/xml</Format>\
+<DCPType>\
+<HTTP>\
+<Get>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?" xlink:type="simple"/>\
+</Get>\
+</HTTP>\
+</DCPType>\
+</qgs:GetStyles>\
+</Request>\
+<Exception>\
+<Format>XML</Format>\
+</Exception>\
+<sld:UserDefinedSymbolization RemoteWCS="0" SupportSLD="1" UserStyle="1" InlineFeature="0" RemoteWFS="0" UserLayer="0"/>\
+<Layer queryable="1">\
+<KeywordList>\
+<Keyword vocabulary="ISO">infoMapAccessService</Keyword>\
+</KeywordList>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-180</westBoundLongitude>\
+<eastBoundLongitude>180</eastBoundLongitude>\
+<southBoundLatitude>-85.051129</southBoundLatitude>\
+<northBoundLatitude>85.05113</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="85.05113" maxy="180" CRS="EPSG:4326" miny="-180" minx="-85.051129"/>\
+<BoundingBox maxx="20037508.343" maxy="20037508.627" CRS="EPSG:3857" miny="-20037508.627" minx="-20037508.343"/>\
+<Layer queryable="1">\
+<Name>Paleomagnetic_Locations</Name>\
+<Title>Paleomagnetic_Locations</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-6.331</westBoundLongitude>\
+<eastBoundLongitude>-4.510833</eastBoundLongitude>\
+<southBoundLatitude>42.803888</southBoundLatitude>\
+<northBoundLatitude>43.637</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.637" maxy="-4.510833" CRS="EPSG:4326" miny="-6.331" minx="42.803888"/>\
+<BoundingBox maxx="-502143.669" maxy="5409437.871" CRS="EPSG:3857" miny="5282169.214" minx="-704763.697"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Paleomagnetic_Locations&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>B_Mag</Name>\
+<Title>B_Mag</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-6.331</westBoundLongitude>\
+<eastBoundLongitude>-4.510833</eastBoundLongitude>\
+<southBoundLatitude>42.803888</southBoundLatitude>\
+<northBoundLatitude>43.637</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.637" maxy="-4.510833" CRS="EPSG:4326" miny="-6.331" minx="42.803888"/>\
+<BoundingBox maxx="-502143.669" maxy="5409437.871" CRS="EPSG:3857" miny="5282169.214" minx="-704763.697"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=B_Mag&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>C_Mag</Name>\
+<Title>C_Mag</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-inf</westBoundLongitude>\
+<eastBoundLongitude>-5.277</eastBoundLongitude>\
+<southBoundLatitude>-inf</southBoundLatitude>\
+<northBoundLatitude>43.23</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.23" maxy="-5.277" CRS="EPSG:4326" miny="-inf" minx="-inf"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=C_Mag&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Post_Carboniferous_Mag</Name>\
+<Title>Post_Carboniferous_Mag</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-6.139</westBoundLongitude>\
+<eastBoundLongitude>-4.72517</eastBoundLongitude>\
+<southBoundLatitude>42.833</southBoundLatitude>\
+<northBoundLatitude>43.43953</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.43953" maxy="-4.72517" CRS="EPSG:4326" miny="-6.139" minx="42.833"/>\
+<BoundingBox maxx="-526003.518" maxy="5379113.894" CRS="EPSG:3857" miny="5286587.19" minx="-683390.354"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Post_Carboniferous_Mag&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>(All layers)</Name>\
+<Title>(All layers)</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-2022436.262655</westBoundLongitude>\
+<eastBoundLongitude>498896.996437</eastBoundLongitude>\
+<southBoundLatitude>3196680.739894</southBoundLatitude>\
+<northBoundLatitude>5439854.864622</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="5439854.864622" maxy="498896.996437" CRS="EPSG:4326" miny="-2022436.262655" minx="3196680.739894"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=(All layers)&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Buzamientos</Name>\
+<Title>Buzamientos</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-18.149799</westBoundLongitude>\
+<eastBoundLongitude>4.307824</eastBoundLongitude>\
+<southBoundLatitude>27.641658</southBoundLatitude>\
+<northBoundLatitude>43.772696</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.772696" maxy="4.307824" CRS="EPSG:4326" miny="-18.149799" minx="27.641658"/>\
+<BoundingBox maxx="479544.694" maxy="5430333.354" CRS="EPSG:3857" miny="3203869.766" minx="-2020426.366"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Buzamientos&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Contactos</Name>\
+<Title>Contactos</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-18.161186</westBoundLongitude>\
+<eastBoundLongitude>4.327782</eastBoundLongitude>\
+<southBoundLatitude>27.637738</southBoundLatitude>\
+<northBoundLatitude>43.792384</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.792384" maxy="4.327782" CRS="EPSG:4326" miny="-18.161186" minx="27.637738"/>\
+<BoundingBox maxx="481766.38" maxy="5433369.069" CRS="EPSG:3857" miny="3203377.209" minx="-2021693.936"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Contactos&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Cuaternario - Lineas auxiliares</Name>\
+<Title>Cuaternario - Lineas auxiliares</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-9.024653</westBoundLongitude>\
+<eastBoundLongitude>3.441647</eastBoundLongitude>\
+<southBoundLatitude>35.178993</southBoundLatitude>\
+<northBoundLatitude>43.669149</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.669149" maxy="3.441647" CRS="EPSG:4326" miny="-9.024653" minx="35.178993"/>\
+<BoundingBox maxx="383122.35" maxy="5414384.06" CRS="EPSG:3857" miny="4188232.392" minx="-1004619.714"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Cuaternario - Lineas auxiliares&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Cuaternario - Recintos </Name>\
+<Title>Cuaternario - Recintos </Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-7.580648</westBoundLongitude>\
+<eastBoundLongitude>1.612681</eastBoundLongitude>\
+<southBoundLatitude>36.061435</southBoundLatitude>\
+<northBoundLatitude>43.561159</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.561159" maxy="1.612681" CRS="EPSG:4326" miny="-7.580648" minx="36.061435"/>\
+<BoundingBox maxx="179522.724" maxy="5397779.673" CRS="EPSG:3857" miny="4309078.165" minx="-843873.86"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Cuaternario - Recintos &FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Ejes</Name>\
+<Title>Ejes</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-9.055532</westBoundLongitude>\
+<eastBoundLongitude>3.377159</eastBoundLongitude>\
+<southBoundLatitude>35.180101</southBoundLatitude>\
+<northBoundLatitude>43.713978</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.713978" maxy="3.377159" CRS="EPSG:4326" miny="-9.055532" minx="35.180101"/>\
+<BoundingBox maxx="375943.55" maxy="5421285.671" CRS="EPSG:3857" miny="4188383.266" minx="-1008057.132"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Ejes&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Indicios minerales</Name>\
+<Title>Indicios minerales</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-7.783022</westBoundLongitude>\
+<eastBoundLongitude>1.555388</eastBoundLongitude>\
+<southBoundLatitude>38.000736</southBoundLatitude>\
+<northBoundLatitude>43.50138</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.50138" maxy="1.555388" CRS="EPSG:4326" miny="-7.783022" minx="38.000736"/>\
+<BoundingBox maxx="173144.933" maxy="5388601.009" CRS="EPSG:3857" miny="4579529.839" minx="-866401.981"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Indicios minerales&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Lineas auxiliares</Name>\
+<Title>Lineas auxiliares</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-18.162291</westBoundLongitude>\
+<eastBoundLongitude>4.328013</eastBoundLongitude>\
+<southBoundLatitude>27.639297</southBoundLatitude>\
+<northBoundLatitude>43.777559</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.777559" maxy="4.328013" CRS="EPSG:4326" miny="-18.162291" minx="27.639297"/>\
+<BoundingBox maxx="481792.196" maxy="5431083.178" CRS="EPSG:3857" miny="3203573.055" minx="-2021816.887"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Lineas auxiliares&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Recintos geolog\'eda</Name>\
+<Title>Recintos geolog\'eda</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-18.161186</westBoundLongitude>\
+<eastBoundLongitude>4.327782</eastBoundLongitude>\
+<southBoundLatitude>27.637738</southBoundLatitude>\
+<northBoundLatitude>43.792384</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.792384" maxy="4.327782" CRS="EPSG:4326" miny="-18.161186" minx="27.637738"/>\
+<BoundingBox maxx="481766.38" maxy="5433369.069" CRS="EPSG:3857" miny="3203377.209" minx="-2021693.936"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Recintos geolog\'eda&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>R\'f3tulos unidades</Name>\
+<Title>R\'f3tulos unidades</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-18.163009</westBoundLongitude>\
+<eastBoundLongitude>4.328036</eastBoundLongitude>\
+<southBoundLatitude>27.639487</southBoundLatitude>\
+<northBoundLatitude>43.777131</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.777131" maxy="4.328036" CRS="EPSG:4326" miny="-18.163009" minx="27.639487"/>\
+<BoundingBox maxx="481794.679" maxy="5431017.105" CRS="EPSG:3857" miny="3203596.959" minx="-2021896.863"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=R\'f3tulos unidades&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Zonas GEODE</Name>\
+<Title>Zonas GEODE</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-18.167855</westBoundLongitude>\
+<eastBoundLongitude>4.481668</eastBoundLongitude>\
+<southBoundLatitude>27.584434</southBoundLatitude>\
+<northBoundLatitude>43.834426</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="43.834426" maxy="4.481668" CRS="EPSG:4326" miny="-18.167855" minx="27.584434"/>\
+<BoundingBox maxx="498896.997" maxy="5439854.865" CRS="EPSG:3857" miny="3196680.739" minx="-2022436.263"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Zonas GEODE&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Esri Satellite</Name>\
+<Title>Esri Satellite</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-180</westBoundLongitude>\
+<eastBoundLongitude>180</eastBoundLongitude>\
+<southBoundLatitude>-85.051129</southBoundLatitude>\
+<northBoundLatitude>85.051129</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="85.051129" maxy="180" CRS="EPSG:4326" miny="-180" minx="-85.051129"/>\
+<BoundingBox maxx="20037508.343" maxy="20037508.343" CRS="EPSG:3857" miny="-20037508.343" minx="-20037508.343"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Esri Satellite&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>Esri Topo World</Name>\
+<Title>Esri Topo World</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-180</westBoundLongitude>\
+<eastBoundLongitude>180</eastBoundLongitude>\
+<southBoundLatitude>-85.051129</southBoundLatitude>\
+<northBoundLatitude>85.051129</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="85.051129" maxy="180" CRS="EPSG:4326" miny="-180" minx="-85.051129"/>\
+<BoundingBox maxx="20037508.343" maxy="20037508.343" CRS="EPSG:3857" miny="-20037508.343" minx="-20037508.343"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=Esri Topo World&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+<Layer queryable="1">\
+<Name>OSM OpenTopoMap</Name>\
+<Title>OSM OpenTopoMap</Title>\
+<CRS>CRS:84</CRS>\
+<CRS>EPSG:3857</CRS>\
+<CRS>EPSG:4326</CRS>\
+<EX_GeographicBoundingBox>\
+<westBoundLongitude>-180</westBoundLongitude>\
+<eastBoundLongitude>180</eastBoundLongitude>\
+<southBoundLatitude>-85.051129</southBoundLatitude>\
+<northBoundLatitude>85.051129</northBoundLatitude>\
+</EX_GeographicBoundingBox>\
+<BoundingBox maxx="85.051129" maxy="180" CRS="EPSG:4326" miny="-180" minx="-85.051129"/>\
+<BoundingBox maxx="20037508.343" maxy="20037508.343" CRS="EPSG:3857" miny="-20037508.343" minx="-20037508.343"/>\
+<Style>\
+<Name>default</Name>\
+<Title>default</Title>\
+<LegendURL>\
+<Format>image/png</Format>\
+<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://wms.prod.qgiscloud.com/MatthewNewell/QGIS_Cloud_Paleomag_Database?&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetLegendGraphic&LAYER=OSM OpenTopoMap&FORMAT=image/png&STYLE=default&SLD_VERSION=1.1.0" xlink:type="simple"/>\
+</LegendURL>\
+</Style>\
+</Layer>\
+</Layer>\
+</Capability>\
+</WMS_Capabilities>\
+}
